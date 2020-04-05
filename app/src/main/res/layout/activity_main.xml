@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="150dp"
         android:gravity="right|bottom"
-        android:text="1200*20*60"
+        android:text=""
         android:textColor="@color/white"
         android:textSize="9pt"
         app:layout_constraintEnd_toEndOf="parent"
@@ -25,7 +25,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="right"
-        android:text="5,760,000"
+        android:text=""
         android:textColor="@color/white"
         android:textSize="18pt"
         app:layout_constraintEnd_toEndOf="parent"
@@ -37,7 +37,9 @@
         android:layout_height="1dp"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
-        android:background="#faa2a4" />
+        android:background="#faa2a4"
+        tools:ignore="MissingConstraints" />
+
 
     <LinearLayout
         android:layout_width="0dp"
@@ -64,7 +66,8 @@
                 android:gravity="center"
                 android:text="AC"
                 android:textColor="@color/white"
-                android:textSize="10pt" />
+                android:textSize="10pt"
+                android:id="@+id/tv_AC"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -74,7 +77,8 @@
                 android:gravity="center"
                 android:text="/"
                 android:textColor="@color/white"
-                android:textSize="10pt" />
+                android:textSize="10pt"
+                android:id="@+id/tv_div"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -84,7 +88,8 @@
                 android:gravity="center"
                 android:text="X"
                 android:textColor="@color/white"
-                android:textSize="10pt" />
+                android:textSize="10pt"
+                android:id="@+id/tv_mul"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -94,7 +99,8 @@
                 android:gravity="center"
                 android:text="-"
                 android:textColor="@color/white"
-                android:textSize="10pt" />
+                android:textSize="10pt"
+                android:id="@+id/tv_sub"/>
 
 
         </LinearLayout>
@@ -113,7 +119,8 @@
                 android:gravity="center"
                 android:text="7"
                 android:textColor="@color/white"
-                android:textSize="10pt" />
+                android:textSize="10pt"
+                android:id="@+id/tv_7"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -123,7 +130,8 @@
                 android:gravity="center"
                 android:text="8"
                 android:textColor="@color/white"
-                android:textSize="10pt" />
+                android:textSize="10pt"
+                android:id="@+id/tv_8"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -133,7 +141,8 @@
                 android:gravity="center"
                 android:text="9"
                 android:textColor="@color/white"
-                android:textSize="10pt" />
+                android:textSize="10pt"
+                android:id="@+id/tv_9"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -142,7 +151,8 @@
                 android:gravity="center"
                 android:text="+"
                 android:textColor="@color/white"
-                android:textSize="10pt" />
+                android:textSize="10pt"
+                android:id="@+id/tv_add"/>
 
         </LinearLayout>
 
@@ -160,7 +170,8 @@
                 android:gravity="center"
                 android:text="4"
                 android:textColor="@color/white"
-                android:textSize="10pt" />
+                android:textSize="10pt"
+                android:id="@+id/tv_4"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -170,7 +181,8 @@
                 android:gravity="center"
                 android:text="5"
                 android:textColor="@color/white"
-                android:textSize="10pt" />
+                android:textSize="10pt"
+                android:id="@+id/tv_5"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -180,7 +192,8 @@
                 android:gravity="center"
                 android:text="6"
                 android:textColor="@color/white"
-                android:textSize="10pt" />
+                android:textSize="10pt"
+                android:id="@+id/tv_6"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -190,7 +203,8 @@
                 android:gravity="center"
                 android:text="%"
                 android:textColor="@color/white"
-                android:textSize="10pt" />
+                android:textSize="10pt"
+                android:id="@+id/tv_percent"/>
 
         </LinearLayout>
 
@@ -208,7 +222,8 @@
                 android:gravity="center"
                 android:text="1"
                 android:textColor="@color/white"
-                android:textSize="10pt" />
+                android:textSize="10pt"
+                android:id="@+id/tv_1"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -218,7 +233,8 @@
                 android:gravity="center"
                 android:text="2"
                 android:textColor="@color/white"
-                android:textSize="10pt" />
+                android:textSize="10pt"
+                android:id="@+id/tv_2"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -228,7 +244,8 @@
                 android:gravity="center"
                 android:text="3"
                 android:textColor="@color/white"
-                android:textSize="10pt" />
+                android:textSize="10pt"
+                android:id="@+id/tv_3"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -237,7 +254,8 @@
                 android:gravity="center"
                 android:text="del"
                 android:textColor="@color/white"
-                android:textSize="10pt" />
+                android:textSize="10pt"
+                android:id="@+id/tv_del"/>
 
 
         </LinearLayout>
@@ -256,7 +274,8 @@
                 android:gravity="center"
                 android:text="00"
                 android:textColor="@color/white"
-                android:textSize="10pt" />
+                android:textSize="10pt"
+                android:id="@+id/tv_00"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -266,7 +285,8 @@
                 android:gravity="center"
                 android:text="0"
                 android:textColor="@color/white"
-                android:textSize="10pt" />
+                android:textSize="10pt"
+                android:id="@+id/tv_0"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -276,7 +296,8 @@
                 android:gravity="center"
                 android:text="."
                 android:textColor="@color/white"
-                android:textSize="10pt" />
+                android:textSize="10pt"
+                android:id="@+id/tv_dot"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -286,7 +307,8 @@
                 android:gravity="center"
                 android:text="="
                 android:textColor="@color/white"
-                android:textSize="10pt" />
+                android:textSize="10pt"
+                android:id="@+id/tv_equal"/>
 
 
         </LinearLayout>
